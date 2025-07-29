@@ -2,7 +2,7 @@
 let produtos = [];
 const categorias = ["placas-de-video", "placa-mae", "processadores", "cooler", "ssds", "fonte", "memoria-ram", "gabinete", "outros"]
 
-fetch("/produtos.json")
+fetch("produtos.json")
   .then(res => res.json())
   .then(data => {
     produtos = data;
