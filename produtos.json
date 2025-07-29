@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "title": "Placa de vídeo Nvidia Geforce GTX 1050 Ti 4GB",
+    "category": "placas-de-video",
+    "price": 529,
+    "img": "/Imagens/placaDeVideo.png",
+    "quantity": 1
+  },
+  {
+    "id": 2,
+    "title": "Placa de vídeo GeForce RTX 3070 8GB GAINWARD RGB",
+    "category": "placas-de-video",
+    "price": 2799,
+    "img": "/Imagens/placaDeVideo.png",
+    "quantity": 1
+  },
+  {
+    "id": 3,
+    "title": "Placa-mãe AM4 A320m Gigabyte",
+    "category": "placa-mae",
+    "price": 419,
+    "img": "/Imagens/placaMaeAMDSimples.jpg",
+    "quantity": 1
+  },
+  {
+    "id": 4,
+    "title": "Placa mãe AM4 B550 ATX MSI Ddr4 (lacrada)",
+    "category": "placa-mae",
+    "price": 999,
+    "img": "/Imagens/placaMaeAMDSimples.jpg",
+    "quantity": 2
+  },
+  {
+    "id": 5,
+    "title": "Processador AMD Ryzen 5 2600x AM4 seminovo",
+    "category": "processadores",
+    "price": 359,
+    "img": "/Imagens/Ryzen.webp"
+  },
+  {
+    "id": 6,
+    "title": "Cooler gamer ARGB Pichau",
+    "category": "cooler",
+    "price": 110,
+    "img": "/Imagens/aircooler.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Gabinete Gamer ATX Gamemax (branco)",
+    "category": "outros",
+    "price": 350,
+    "img": "/Imagens/aircooler.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Ventoinha Fan ARGB 5v Gamemax",
+    "category": "outros",
+    "price": 35,
+    "img": "/Imagens/aircooler.jpg"
+  },
+  {
+    "id": 9,
+    "title": "HD 500GB SATA III seminovo",
+    "category": "outros",
+    "price": 99,
+    "img": "/Imagens/aircooler.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Ryzen 5 5600",
+    "category": "processadores",
+    "price": 849,
+    "img": "/Imagens/Ryzen.webp",
+    "quantity": 1
+  },
+  {
+    "id": 11,
+    "title": "Ryzen 5 5500",
+    "category": "processadores",
+    "price": 649,
+    "img": "/Imagens/Ryzen.webp",
+    "quantity": 1
+  },
+  {
+    "id": 12,
+    "title": "Ryzen 3 2200g",
+    "category": "processadores",
+    "price": 249,
+    "img": "/Imagens/Ryzen.webp",
+    "quantity": 0
+  }
+]
