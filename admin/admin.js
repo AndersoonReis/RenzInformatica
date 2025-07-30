@@ -80,7 +80,7 @@ function criarModalHTML() {
       <label>Quantidade: <input id="modal-quantity" type="number" value="1" min="0"></label>
       <div style="text-align: right; margin-top: 10px;">
         <button onclick="salvarProduto()">Salvar</button>
-        <button onclick="fecharModal()">Cancelar</button>
+        <button onclick="fecharModaladd()">Cancelar</button>
       </div>
     </div>
   `;
@@ -92,10 +92,11 @@ function adicionarProduto() {
   document.getElementById("modal").style.display = "block";
 }
 
-function fecharModal() {
-  const modal = document.getElementById("modal");
-  if (modal) modal.style.display = "none";
+function fecharModaladd() {
+  const modal = document.querySelector(".modal");
+  if (modal) modal.remove();
 }
+
 
 function salvarProduto() {
   const title = document.getElementById("modal-title").value;
