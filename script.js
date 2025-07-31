@@ -1,4 +1,3 @@
-
 let produtos = [];
 
 fetch("produtos.json")

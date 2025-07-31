@@ -1,50 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #0d0d0d;
+  color: white;
 }
 
-h1 {
-  text-align: center;
-  font-size: 32px;
+header {
+  background-color: #2767c7;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-input, select, button {
-  padding: 6px;
-  margin: 4px;
-  font-size: 16px;
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
 }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
+.logo span {
+  color: #0066ff;
 }
 
-th, td {
-  padding: 10px;
-  border: 1px solid #ccc;
-  text-align: center;
+.categorias {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
-.modal {
-  position: fixed;
-  top: 0; left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(0,0,0,0.5);
+.categorias button {
+  background-color: #111111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.categorias button:hover {
+  background-color: #0066ff;
+  color: white;
+}
+
+.destaque {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.modal.hidden {
-  display: none;
-}
-
-.modal-content {
-  background: #fff;
+  gap: 60px;
+  margin-top: 40px;
   padding: 20px;
+}
+
+.tag {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  background-color: #001f4d;
+  padding: 15px;
+  font-weight: bold;
   border-radius: 10px;
-  width: 300px;
+  font-size: 18px;
+  color: #007bff;
+}
+
+.chamada {
+  text-align: center;
+}
+
+.chamada h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.chamada p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.botao-montar {
+  background-color: #0066ff;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.botao-montar:hover {
+  background-color: #0052cc;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .destaque {
+    flex-direction: column;
+  }
+
+  .tag {
+    writing-mode: horizontal-tb;
+  }
+
+  .categorias {
+    justify-content: center;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+}
+
+/* Estiliza o <nav> como uma barra horizontal */
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+/* Estiliza os links das categorias */
+.navbar a {
+  background-color: #111111;
+  color: white;
+  padding: 10px 16px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.navbar a:hover {
+  background-color: #0066ff;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+/* Estilo específico para o botão de carrinho */
+#cart-btn {
+  background-color: #111;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+#cart-btn:hover {
+  background-color: #0066ff;
+  transform: translateY(-2px);
 }

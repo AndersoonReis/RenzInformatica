@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+  
     <!-- Modal do Carrinho -->
   <div id="cart-modal" class="cart-modal hidden">
     <div class="cart-content">
@@ -18,25 +18,54 @@
       <button id="finalize-cart">Finalizar Compra</button>
     </div>
   </div>
+  <!-- Topo principal -->
+  <div class="top-bar">
+  <!-- LOGO -->
+  <div class="left-section">
+    <img src="imagens/Renz.png" alt="Logo Renz">
+  </div>
 
+  <!-- BARRA DE PESQUISA -->
+  <div class="center-section">
+    <input type="text" placeholder="O que você está procurando?">
+    <button><i class="fas fa-search"></i></button>
+  </div>
 
-  <header>
-    <h1>Renz Informática</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="categorias/processadores.html">Processadores</a>
-      <a href="categorias/placas-de-video.html">Placas de Vídeo</a>
-      <a href="categorias/placa-mae.html">Placa Mãe</a>
+  <!-- BOTOES À DIREITA -->
+  <div class="right-section">
+      <button id="monte-pc">Monte seu PC!</button>
+      <div>
+        <button id="cart-btn">Carrinho (0)</button>
+      </div>
+    </a>
+  </div>
+</div>
+
+    <nav class="navbar">
+      <a href="categorias/processadores.html">PROCESSADORES</a>
+      <a href="categorias/placas-de-video.html">PLACAS DE VÍDEO</a>
+      <a href="categorias/placa-mae.html">PLACA MÃE</a>
       <a href="categorias/ssds.html">SSDs</a>
-      <a href="categorias/fonte.html">Fonte</a>
-      <a href="categorias/cooler.html">Cooler</a>
-      <a href="categorias/memoria-ram.html">Memória RAM</a>
-      <a href="categorias/outros.html">Outros</a>
-      <button id="cart-btn">Carrinho (0)</button>
+      <a href="categorias/fonte.html">FONTE</a>
+      <a href="categorias/cooler.html">COOLER</a>
+      <a href="categorias/memoria-ram.html">MEMÓRIA RAM</a>
+      <a href="categorias/gabinetes.html">GABINETES</a>
+      <a href="categorias/perifericos.html">PERIFÉRICOS</a>
+      <a href="categorias/outros.html">OUTROS</a>
     </nav>
   </header>
 
   <main id="product-list">
+
+    <section class="destaque">
+      <div class="tag tag-esquerda">PROMOÇÃO</div>
+      <div class="chamada">
+        <h1>MONTE SEU PC</h1>
+        <p>Escolha os componentes e monte o seu PC gamer!</p>
+        <a href="#" class="botao-montar">Montar</a>
+      </div>
+      <div class="tag tag-direita">NOVIDADEE</div>
+    </section>
     <!-- Cards de produtos serão carregados via JS -->
      
   </main>

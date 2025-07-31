@@ -13,7 +13,7 @@
     "category": "placas-de-video",
     "price": 2799,
     "img": "/Imagens/placaDeVideo.png",
-    "quantity": 1
+    "quantity": 0
   },
   {
     "id": 3,
@@ -36,7 +36,7 @@
     "title": "Processador AMD Ryzen 5 2600x AM4 seminovo",
     "category": "processadores",
     "price": 359,
-    "img": "/Imagens/Ryzen.webp"
+    "img": "https://images.kabum.com.br/produtos/fotos/520368/processador-amd-ryzen-5-5600gt-3-6-ghz-4-6ghz-max-turbo-cache-4mb-6-nucleos-12-threads-am4-100-100001488box_1708024586_gg.jpg"
   },
   {
     "id": 6,
@@ -57,7 +57,8 @@
     "title": "Ventoinha Fan ARGB 5v Gamemax",
     "category": "outros",
     "price": 35,
-    "img": "/Imagens/aircooler.jpg"
+    "img": "/Imagens/aircooler.jpg",
+    "quantity": 5
   },
   {
     "id": 9,
@@ -71,7 +72,7 @@
     "title": "Ryzen 5 5600",
     "category": "processadores",
     "price": 849,
-    "img": "/Imagens/Ryzen.webp",
+    "img": "https://images.kabum.com.br/produtos/fotos/520368/processador-amd-ryzen-5-5600gt-3-6-ghz-4-6ghz-max-turbo-cache-4mb-6-nucleos-12-threads-am4-100-100001488box_1708024586_gg.jpg",
     "quantity": 1
   },
   {
