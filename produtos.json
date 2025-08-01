@@ -36,7 +36,7 @@
     "title": "Processador AMD Ryzen 5 2600x AM4 seminovo",
     "category": "processadores",
     "price": 359,
-    "img": "https://images.kabum.com.br/produtos/fotos/520368/processador-amd-ryzen-5-5600gt-3-6-ghz-4-6ghz-max-turbo-cache-4mb-6-nucleos-12-threads-am4-100-100001488box_1708024586_gg.jpg"
+    "img": "/imagens/ryzen.webp"
   },
   {
     "id": 6,
@@ -72,7 +72,7 @@
     "title": "Ryzen 5 5600",
     "category": "processadores",
     "price": 849,
-    "img": "https://images.kabum.com.br/produtos/fotos/520368/processador-amd-ryzen-5-5600gt-3-6-ghz-4-6ghz-max-turbo-cache-4mb-6-nucleos-12-threads-am4-100-100001488box_1708024586_gg.jpg",
+    "img": "/imagens/ryzen.webp",
     "quantity": 1
   },
   {
@@ -80,7 +80,7 @@
     "title": "Ryzen 5 5500",
     "category": "processadores",
     "price": 649,
-    "img": "/imagens/Ryzen.webp",
+    "img": "/imagens/ryzen.webp",
     "quantity": 1
   },
   {
@@ -88,7 +88,7 @@
     "title": "Ryzen 3 2200g",
     "category": "processadores",
     "price": 249,
-    "img": "/imagens/Ryzen.webp",
+    "img": "/imagens/ryzen.webp",
     "quantity": 0
   }
 ]
