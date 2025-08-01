@@ -8,7 +8,7 @@
 </head>
 <body>
   
-  <!-- Modal do Carrinho -->
+    <!-- Modal do Carrinho -->
   <div id="cart-modal" class="cart-modal hidden">
     <div class="cart-content">
       <h2>Seu Carrinho</h2>
@@ -18,11 +18,30 @@
       <button id="finalize-cart">Finalizar Compra</button>
     </div>
   </div>
+  <!-- Topo principal -->
+  <div class="top-bar">
+  <!-- LOGO -->
+  <div class="left-section">
+    <a href="../index.html"><img src="../imagens/Renz.png" alt="Logo Renz"></a>
+  </div>
 
-  <header>
-    <h1>Renz Informática</h1>
-    <nav>
-      <a href="../index.html">Home</a>
+  <!-- BARRA DE PESQUISA -->
+  <div class="center-section">
+    <input type="text" placeholder="O que você está procurando?">
+    <button><i class="fas fa-search"></i></button>
+  </div>
+
+  <!-- BOTOES À DIREITA -->
+  <div class="right-section">
+      <button id="monte-pc">Monte seu PC!</button>
+      <div>
+        <button id="cart-btn">Carrinho (0)</button>
+      </div>
+    </a>
+  </div>
+</div>
+
+    <nav class="navbar">
       <a href="processadores.html">Processadores</a>
       <a href="placas-de-video.html">Placas de Vídeo</a>
       <a href="placa-mae.html">Placa Mãe</a>
@@ -30,20 +49,32 @@
       <a href="fonte.html">Fonte</a>
       <a href="cooler.html">Cooler</a>
       <a href="memoria-ram.html">Memória RAM</a>
+      <a href="gabinetes.html">GABINETES</a>
+      <a href="perifericos.html">PERIFÉRICOS</a>
       <a href="outros.html">Outros</a>
-      <button id="cart-btn">Carrinho (0)</button>
     </nav>
   </header>
 
   <main id="product-list">
+
+    <section class="destaque">
+      <div class="tag tag-esquerda">PROMOÇÃO</div>
+      <div class="chamada">
+        <h1>MONTE SEU PC</h1>
+        <p>Escolha os componentes e monte o seu PC gamer!</p>
+        <a href="#" class="botao-montar">Montar</a>
+      </div>
+      <div class="tag tag-direita">NOVIDADEE</div>
+    </section>
     <!-- Cards de produtos serão carregados via JS -->
+     
   </main>
 
   <footer>
     <p>© 2025 Renz Informática e Hardware LTDA • <a href="mailto:renzinformatica@gmail.com">renzinformatica@gmail.com</a></p>
     <p>Rua Juracy Magalhães N°646, Ponto Central - Feira de Santana/BA • CNPJ: 54.030.876/0001-00</p>
   </footer>
-  
+
   <script src="../js/main.js"></script>
 </body>
 </html>
