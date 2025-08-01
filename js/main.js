@@ -25,8 +25,9 @@ function saveCart() {
 }
 
 function updateCartCount() {
-  cartBtn.innerText = `Carrinho (${cart.length})`;
+  document.getElementById('cart-count').innerText = cart.length;
 }
+
 
 function renderCart() {
   cartItemsDiv.innerHTML = "";

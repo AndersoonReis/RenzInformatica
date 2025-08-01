@@ -152,7 +152,7 @@ footer { background:#191B1D; text-align:center; padding:1rem; margin-top:2rem; }
   font-weight: 600;
   font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
   background-color: #165881;
-  padding: 35px 15px;
+  padding: 23px 15px;
   border-radius: 5px;
   color: white;
   display: flex;
@@ -365,7 +365,10 @@ main {
     height: 60px;
   }
 
-  #monte-pc,
+  #monte-pc{
+    padding: 22px;
+    font-size: 14px;
+  }
   #cart-btn {
     padding: 10px;
     font-size: 14px;
