@@ -178,6 +178,6 @@ document.getElementById("search-input").addEventListener("keydown", function (e)
 });
 
 function toggleNavbar() {
-    const navbar = document.querySelector('.navbar');
-    navbar.classList.toggle('active');
+    const menu = document.querySelector('.navbar').classList.toggle('active');
+    menu.classList.toggle("active")
   }
