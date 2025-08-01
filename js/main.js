@@ -176,3 +176,8 @@ document.getElementById("search-input").addEventListener("keydown", function (e)
     buscarProduto();
   }
 });
+
+function toggleNavbar() {
+    const navbar = document.querySelector('.navbar');
+    navbar.classList.toggle('active');
+  }
