@@ -82,13 +82,5 @@
     "price": 649,
     "img": "/imagens/ryzen.webp",
     "quantity": 1
-  },
-  {
-    "id": 12,
-    "title": "Ryzen 3 2200g",
-    "category": "processadores",
-    "price": 249,
-    "img": "/imagens/ryzen.webp",
-    "quantity": 0
   }
 ]
