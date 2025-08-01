@@ -76,7 +76,7 @@ function criarModalHTML() {
     </label>
 
       <label>Preço (R$): <input id="modal-price" type="number" step="0.01"></label>
-      <label>Imagem (URL): <input id="modal-img" type="text" value="/Imagens/renzlogo.png"></label>
+      <label>Imagem (URL): <input id="modal-img" type="text" value="/imagens/RenzLogo.png"></label>
       <label>Quantidade: <input id="modal-quantity" type="number" value="1" min="0"></label>
       <div style="text-align: right; margin-top: 10px;">
         <button onclick="salvarProduto()">Salvar</button>

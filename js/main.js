@@ -136,3 +136,43 @@ window.onload = () => {
 
 
 };
+
+function buscarProduto() {
+  const termo = document.getElementById("search-input").value.toLowerCase();
+
+  // Filtra produtos cujo título contenha o termo buscado
+  const resultados = products.filter(produto =>
+    produto.title.toLowerCase().includes(termo)
+  );
+
+  renderProductsByList(resultados);
+}
+
+function renderProductsByList(lista) {
+  const container = document.getElementById("product-list");
+  container.innerHTML = "";
+
+  if (lista.length === 0) {
+    container.innerHTML = "<p>Nenhum produto encontrado.</p>";
+    return;
+  }
+
+  lista.forEach(p => {
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `
+      <img src="../${p.img}" alt="${p.title}">
+      <h3>${p.title}</h3>
+      <p>R$ ${p.price.toFixed(2)}</p>
+      <button onclick="addToCart(${p.id})">Adicionar ao carrinho</button>
+      <button onclick="contactWhats(${p.id})">WhatsApp</button>
+    `;
+    container.appendChild(card);
+  });
+}
+
+document.getElementById("search-input").addEventListener("keydown", function (e) {
+  if (e.key === "Enter") {
+    buscarProduto();
+  }
+});
