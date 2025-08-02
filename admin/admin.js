@@ -52,6 +52,23 @@ function removerProduto(index) {
   }
 }
 
+function saveJson() {
+  fetch("http://localhost:5000/salvar-produtos", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(produtos)
+  })
+    .then(res => res.json())
+    .then(data => {
+      alert("Produtos salvos com sucesso!");
+    })
+    .catch(err => {
+      alert("Erro ao salvar os produtos: " + err.message);
+    });
+}
+
 function criarModalHTML() {
   const modal = document.createElement("div");
   modal.id = "modal";
@@ -120,6 +137,7 @@ function salvarProduto() {
   };
 
   produtos.push(novo);
+  saveJson();
   fecharModaladd();
   renderTabela();
 }
@@ -172,6 +190,7 @@ function salvarDuplicado(indexOriginal) {
     quantity: parseInt(document.getElementById("modal-quantity").value)
   };
   produtos.push(novo);
+  saveJson();
   fecharModal();
   renderTabela();
 }
@@ -180,23 +199,3 @@ function fecharModal() {
   const modal = document.querySelector(".modal-overlay");
   if (modal) modal.remove();
 }
-
-
-function saveJson() {
-  fetch("http://localhost:5000/salvar-produtos", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify(produtos)
-  })
-    .then(res => res.json())
-    .then(data => {
-      alert("Produtos salvos com sucesso!");
-    })
-    .catch(err => {
-      alert("Erro ao salvar os produtos: " + err.message);
-    });
-}
-
-

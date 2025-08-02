@@ -82,5 +82,37 @@
     "price": 649,
     "img": "/imagens/ryzen.webp",
     "quantity": 1
+  },
+  {
+    "id": 12,
+    "title": "Placa de vídeo Nvidia Geforce GTX 1050 Ti",
+    "category": "processadores",
+    "price": 529,
+    "img": "/imagens/placaDeVideo.png",
+    "quantity": 1
+  },
+  {
+    "id": 13,
+    "title": "Ryzen 5 3600",
+    "category": "processadores",
+    "price": 479,
+    "img": "/imagens/ryzen.webp",
+    "quantity": 1
+  },
+  {
+    "id": 14,
+    "title": "Placa-mãe AM4 A520m Gigabyte",
+    "category": "processadores",
+    "price": 449,
+    "img": "/imagens/placaMaeAMDSimples.jpg",
+    "quantity": 1
+  },
+  {
+    "id": 15,
+    "title": "Ryzen 5 2600 ",
+    "category": "processadores",
+    "price": 299,
+    "img": "/imagens/ryzen.webp",
+    "quantity": 1
   }
 ]
